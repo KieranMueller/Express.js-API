@@ -1,0 +1,20 @@
+{
+    "name": "express-api",
+    "version": "1.0.0",
+    "description": "simple express crud API",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "nodemon index.js"
+    },
+    "author": "Kieran Mueller",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.19.2",
+        "mysql2": "^3.9.6",
+        "uuid": "^9.0.1"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.0"
+    }
+}
